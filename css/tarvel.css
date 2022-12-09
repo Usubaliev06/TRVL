@@ -1,0 +1,142 @@
+.tarvel {
+  height: 740px;
+  width: 100%;
+  background: #000000;
+
+
+}
+
+.travel-inner {
+  width: 100%;
+  padding-top: 116px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.travel-description {
+  width: 348px;
+}
+
+.travel-description>h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+
+.travel-description>p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.travel-images {
+  height: fit-content;
+  width: 591px;
+  position: relative;
+}
+
+.travel-images-1 {
+  width: 240px;
+  height: 186px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+}
+
+.travel-images-2 {
+  width: 240px;
+  height: 249px;
+  border-radius: 30px;
+  position: absolute;
+  top: 208px;
+  left: 0;
+}
+
+.travel-images-3 {
+  width: 326px;
+  height: 457px;
+  border-radius: 30px;
+  position: absolute;
+  left: 265px;
+  top: 0;
+}
+
+@media screen and (max-width:1329px) {
+  .travel-inner {
+    display: block;
+    margin: auto;
+  }
+
+  .tarvel {
+    height: 919px;
+  }
+
+  .travel-description>p {
+    width: 591px;
+    margin-bottom: 59px;
+  }
+
+  .travel-inner {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width:679px) {
+  .travel-description>h1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+  }
+
+  .travel-description>p {
+    width: 292px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+  }
+  .tarvel{
+    height: 1442px;
+  }
+  
+.travel-images {
+  height: fit-content;
+  width: 292px;
+  position: relative;
+}
+
+.travel-images-1 {
+  width: 292px;
+  height: 186px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+}
+
+.travel-images-2 {
+  width: 292px;
+  height: 249px;
+  border-radius: 30px;
+  position: absolute;
+  top: 208px;
+  left: 0;
+}
+
+.travel-images-3 {
+  width: 292px;
+  height: 457px;
+  border-radius: 30px;
+  position: absolute;
+  left: 0px;
+  top: 479px;
+}
+.travel-description>p{
+  margin-bottom: 47px;
+}
+
+}

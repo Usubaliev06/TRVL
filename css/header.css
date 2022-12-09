@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 29px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-header {
+  width: 90px;
+  height: 20px;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+.burger{
+display: none;
+}
+
+.menu-links>a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #fdfdfd;
+}
+
+.menu-links>a:hover {
+  color: #D28888;
+
+}
+
+@media screen and (max-width:1329px) {
+  .burger {
+    display: block;
+    width: 36px;
+    height: 36px;
+  }
+  .menu-links{
+    display: none;
+  }
+}
